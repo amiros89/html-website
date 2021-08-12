@@ -17,7 +17,7 @@ h2{
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   color: #4C87EB;
-  font-weight: normal;
+  font-weight:bold;
 }
 h3{
   font-family: 'Montserrat', sans-serif;
@@ -78,6 +78,7 @@ p{
   background-color: #284A8F;
   position: relative;
   padding-top: 100px;
+  padding-bottom: 131px;
 }
 
 .middle-container {
@@ -85,19 +86,24 @@ p{
 }
 
 .bottom-container {
-  /* background-color: #284A8F; */
+  background-color: #284A8F;
+  padding-bottom: 50px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 750px;
-  bottom: 300px;
+  left: 600px;
+  bottom: 400px;
 }
 
 .top-cloud {
   position: absolute;
-  right: 750px;
+  right: 600px;
   top: 50px
+}
+.mountain{
+  position: relative;
+  top: 140px;
 }
 .btn {
    background: #284A8F;
@@ -114,6 +120,7 @@ p{
    font-size: 40px;
    font-weight: 100;
    padding: 40px;
+   margin-bottom: 40px;
    -webkit-box-shadow: 1px 1px 20px 0 #000000;
    -moz-box-shadow: 1px 1px 20px 0 #000000;
    box-shadow: 1px 1px 20px 0 #000000;
@@ -137,6 +144,11 @@ p{
    -moz-border-radius: 20px;
    border-radius: 20px;
    text-decoration: none;
+}
+.footer-link{
+  text-decoration: none;
+  line-height: 4;
+  margin: 15px;
 }
 /* #A1720E
    #EBB74B
